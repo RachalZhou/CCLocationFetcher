@@ -118,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				8C9D1C802113EA2600D5B8EF /* CCLocationDemo */,
+				8C9D1CB32113ED4C00D5B8EF /* CCLocationFetcher */,
+				8C9D1CB72113F17600D5B8EF /* MJExtension */,
 				8C9D1C992113EA2900D5B8EF /* CCLocationDemoTests */,
 				8C9D1CA42113EA2900D5B8EF /* CCLocationDemoUITests */,
 				8C9D1C7F2113EA2600D5B8EF /* Products */,
@@ -141,8 +143,6 @@
 				8C9D1C822113EA2600D5B8EF /* AppDelegate.m */,
 				8C9D1C842113EA2600D5B8EF /* ViewController.h */,
 				8C9D1C852113EA2600D5B8EF /* ViewController.m */,
-				8C9D1CB32113ED4C00D5B8EF /* CCLocationFetcher */,
-				8C9D1CB72113F17600D5B8EF /* MJExtension */,
 				8C9D1C872113EA2600D5B8EF /* Main.storyboard */,
 				8C9D1C8A2113EA2800D5B8EF /* Assets.xcassets */,
 				8C9D1C8C2113EA2800D5B8EF /* LaunchScreen.storyboard */,
@@ -521,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WJLPEH3MDZ;
 				INFOPLIST_FILE = CCLocationDemo/Info.plist;
@@ -539,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WJLPEH3MDZ;
 				INFOPLIST_FILE = CCLocationDemo/Info.plist;
