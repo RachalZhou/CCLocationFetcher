@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.author             = { "RachalZhou" => "1048255049@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/RachalZhou/CCLocationFetcher.git", :tag => "v#{s.version}" }
-  s.source_files  = "CCLocationFetcher/CCLocationFetcher/"
+  s.source_files  = "CCLocationFetcher/*.{h,m}"
   s.requires_arc = true
 end
