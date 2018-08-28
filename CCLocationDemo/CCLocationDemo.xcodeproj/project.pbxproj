@@ -13,8 +13,6 @@
 		8C9D1C8B2113EA2800D5B8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D1C8A2113EA2800D5B8EF /* Assets.xcassets */; };
 		8C9D1C8E2113EA2800D5B8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D1C8C2113EA2800D5B8EF /* LaunchScreen.storyboard */; };
 		8C9D1C912113EA2800D5B8EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D1C902113EA2800D5B8EF /* main.m */; };
-		8C9D1C9B2113EA2900D5B8EF /* CCLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D1C9A2113EA2900D5B8EF /* CCLocationDemoTests.m */; };
-		8C9D1CA62113EA2900D5B8EF /* CCLocationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D1CA52113EA2900D5B8EF /* CCLocationDemoUITests.m */; };
 		8C9D1CB62113ED4D00D5B8EF /* CCLocationFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D1CB52113ED4C00D5B8EF /* CCLocationFetcher.m */; };
 		8C9D1CCE2113F17600D5B8EF /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D1CBB2113F17600D5B8EF /* MJPropertyType.m */; };
 		8C9D1CCF2113F17600D5B8EF /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D1CBE2113F17600D5B8EF /* NSObject+MJKeyValue.m */; };
@@ -58,11 +56,7 @@
 		8C9D1C8F2113EA2800D5B8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9D1C902113EA2800D5B8EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C9D1C962113EA2900D5B8EF /* CCLocationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCLocationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C9D1C9A2113EA2900D5B8EF /* CCLocationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLocationDemoTests.m; sourceTree = "<group>"; };
-		8C9D1C9C2113EA2900D5B8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9D1CA12113EA2900D5B8EF /* CCLocationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCLocationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C9D1CA52113EA2900D5B8EF /* CCLocationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLocationDemoUITests.m; sourceTree = "<group>"; };
-		8C9D1CA72113EA2900D5B8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9D1CB42113ED4C00D5B8EF /* CCLocationFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocationFetcher.h; sourceTree = "<group>"; };
 		8C9D1CB52113ED4C00D5B8EF /* CCLocationFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocationFetcher.m; sourceTree = "<group>"; };
 		8C9D1CB82113F17600D5B8EF /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
@@ -120,8 +114,6 @@
 				8C9D1C802113EA2600D5B8EF /* CCLocationDemo */,
 				8C9D1CB32113ED4C00D5B8EF /* CCLocationFetcher */,
 				8C9D1CB72113F17600D5B8EF /* MJExtension */,
-				8C9D1C992113EA2900D5B8EF /* CCLocationDemoTests */,
-				8C9D1CA42113EA2900D5B8EF /* CCLocationDemoUITests */,
 				8C9D1C7F2113EA2600D5B8EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,24 +142,6 @@
 				8C9D1C902113EA2800D5B8EF /* main.m */,
 			);
 			path = CCLocationDemo;
-			sourceTree = "<group>";
-		};
-		8C9D1C992113EA2900D5B8EF /* CCLocationDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8C9D1C9A2113EA2900D5B8EF /* CCLocationDemoTests.m */,
-				8C9D1C9C2113EA2900D5B8EF /* Info.plist */,
-			);
-			path = CCLocationDemoTests;
-			sourceTree = "<group>";
-		};
-		8C9D1CA42113EA2900D5B8EF /* CCLocationDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8C9D1CA52113EA2900D5B8EF /* CCLocationDemoUITests.m */,
-				8C9D1CA72113EA2900D5B8EF /* Info.plist */,
-			);
-			path = CCLocationDemoUITests;
 			sourceTree = "<group>";
 		};
 		8C9D1CB32113ED4C00D5B8EF /* CCLocationFetcher */ = {
@@ -360,7 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9D1C9B2113EA2900D5B8EF /* CCLocationDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9D1CA62113EA2900D5B8EF /* CCLocationDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
