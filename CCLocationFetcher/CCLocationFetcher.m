@@ -6,7 +6,7 @@
 
 #import "CCLocationFetcher.h"
 #import <CoreLocation/CoreLocation.h>
-#import "MJExtension.h"//若工程已导入可注释
+#import "NSObject+Model.h"
 
 @interface CCLocationFetcher()<CLLocationManagerDelegate>
 
@@ -70,9 +70,9 @@
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
     [geocoder reverseGeocodeLocation:locations[0] completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         
-        //依赖MJExtension将字典转为模型（若无请导入）
+        //将字典转为模型
         NSDictionary *dic = [self getInfoWithPlacemark:placemarks[0]];
-        LocationModel *model = [LocationModel mj_objectWithKeyValues:dic];
+        LocationModel *model = [LocationModel modelWithDictionary:dic];
         
         [self locateCompleted:model];
     }];
@@ -128,5 +128,9 @@
 
 #pragma mark - 定位数据模型
 @implementation LocationModel
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+    
+}
 
 @end
