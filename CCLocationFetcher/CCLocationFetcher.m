@@ -16,7 +16,7 @@
 @end
 
 @implementation CCLocationFetcher {
-    NSUInteger *_locationAge;//定位次数(避免重复定位)
+    NSUInteger _locationAge;//定位次数(避免重复定位)
 }
 
 //单例
