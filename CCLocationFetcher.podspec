@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "CCLocationFetcher"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A tool that get location info easily."
   s.description  = "You can use CCLocationFetcher to get location info with one line of code."
   s.homepage     = "https://github.com/RachalZhou/CCLocationFetcher"
