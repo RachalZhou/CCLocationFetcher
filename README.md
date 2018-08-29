@@ -7,6 +7,8 @@ Customized location manager for Objective-C
 将定位相关的代码从 **Controller** 中分离，封装到 **NSObject** 对象中。采用 **block** 回调的方式降低代码的分散度，方便调用亦易于获取位置信息。
 
 ### 使用方法
+支持**cocoapods**，或直接将**CCLocationFetcher**文件夹拖入工程，引用。
+
 **CCLocationFetcher** 对象调 ***startWithCompletionHandler:*** 方法，返回一个存储定位信息的 **LocationModel** 对象，所需信息直接用点语法获取。以名为location对象为例，包含：
 * **location.longitude**   经度
 * **location.latitude**   纬度
@@ -36,7 +38,7 @@ NSLog(@"经度:%@--纬度:%@--地址:%@",location.longitude,location.latitude,lo
 ```
 
 ### 注意
-* 定位前确保权限已设置，并且应用处于有网状态
-* 定位信息转模型用到了MJExtension，若无可自行导入
+* 定位前确保网络和定位权限已设置
 * 方法一暂无局限性，随用随调，推荐
 * 方法二需将对象设置为实例变量，存在局限性
+
